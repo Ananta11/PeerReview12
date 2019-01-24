@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16905D7421F89C4B00A704B6 /* Inspire.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Inspire.gpx; path = PeerReview12/Inspire.gpx; sourceTree = "<group>"; };
 		8C543FBE1F4CCD380025D922 /* PeerReview12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerReview12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C543FC11F4CCD380025D922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C543FC21F4CCD380025D922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		8C543FB51F4CCD380025D922 = {
 			isa = PBXGroup;
 			children = (
+				16905D7421F89C4B00A704B6 /* Inspire.gpx */,
 				8C543FC01F4CCD380025D922 /* PeerReview12 */,
 				8C543FBF1F4CCD380025D922 /* Products */,
 			);
@@ -102,6 +104,7 @@
 				TargetAttributes = {
 					8C543FBD1F4CCD380025D922 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -277,10 +280,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7KHHPX4EM;
 				INFOPLIST_FILE = PeerReview12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnantaShahane.PeerReview12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -289,10 +297,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7KHHPX4EM;
 				INFOPLIST_FILE = PeerReview12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnantaShahane.PeerReview12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -316,6 +329,7 @@
 				8C543FD61F4CCD380025D922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
