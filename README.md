@@ -12,5 +12,5 @@ The application is as shown below.
 
 ____
 
-![PeerReview12.1](https://github.com/Ananta11/PeerReview12/raw/master/Common/ScreenShot1.png)
-![PeerReview12.2](https://github.com/Ananta11/PeerReview12/raw/master/Common/ScreenShot2.png)
+![PeerReview12.1](https://github.com/Ananta11/PeerReview12/raw/master/Common/Screenshot1.png)
+![PeerReview12.2](https://github.com/Ananta11/PeerReview12/raw/master/Common/Screenshot2.png)
